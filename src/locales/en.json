@@ -1,0 +1,6 @@
+{
+	"Error: authorization - me": "Error: authorization - me",
+	"Error: token google incorrect": "Error: token google incorrect",
+	"Error: authorization - google": "Error: authorization - google",
+	"Error: token time is over": "Error: token time is over"
+}

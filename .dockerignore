@@ -1,0 +1,16 @@
+node_modules
+build
+.git
+.github
+.vscode
+.env
+.env.*
+*.p8
+keys.txt
+serviceAccounts
+deploy
+db
+docker-compose.yaml
+thunder-collection_*.json
+README.md
+**/.DS_Store

@@ -1,0 +1,14 @@
+node_modules/
+build/
+.env
+.DS_Store
+
+
+# pico-8
+*.p8
+keys.txt
+
+# log files
+.env.*
+!.env.example
+package-lock.json

@@ -25,7 +25,7 @@ const sendPushNotification = async (values: {
       app_id: APP_KEY_ONESIGNAL,
       email_subject: "My site - Feedback",
       email_body: getHTMLToME(values),
-      include_email_tokens: ["contact@example.com"],
+      include_email_tokens: [process.env.FEEDBACK_EMAIL_TO || ""],
     }),
   };
   const result = await fetch(url, options);

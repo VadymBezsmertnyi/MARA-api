@@ -12,3 +12,11 @@ keys.txt
 .env.*
 !.env.example
 package-lock.json
+
+# credentials
+serviceAccounts/
+*.p8
+*.pem
+keys.txt
+.env.*
+!.env.example

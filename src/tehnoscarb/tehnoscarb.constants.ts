@@ -9,7 +9,7 @@ const headers = {
   Referer: "https://tehnoskarb.ua/metalloiskateli/c226",
   "X-Requested-With": "XMLHttpRequest",
 };
-const myPhone = "+10000000000";
+const myPhone = process.env.TEHNOSCARB_NOTIFY_PHONE || "";
 const minelabEquinox900 = ["Minelab", "equinox", "900"];
 const motogarntura = [
   "motogarntura",

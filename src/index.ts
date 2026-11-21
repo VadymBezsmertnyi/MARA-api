@@ -74,8 +74,9 @@ if (swaggerLogin && swaggerPassword)
   );
 
 const PORT = process.env.PORT || 5008;
-const dbDev = `mongodb://localhost:27017/motosect`;
-const dbProd = `mongodb://localhost:27017/MARA`;
+const mongoUri = process.env.MONGODB_URI || "mongodb://localhost:27017";
+const dbDev = `${mongoUri}/motosect`;
+const dbProd = `${mongoUri}/MARA`;
 const db = process.env.NODE_ENV === "production" ? dbProd : dbDev;
 
 mongoose
